@@ -1,118 +1,787 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
+
     <title>محصولات | لبنیات اشکذر</title>
+
     <link rel="stylesheet" href="style.css">
+
     <link rel="icon" href="images/Logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
+
+
 <body>
-    <header>
-        <div>
-            <img src="images/Logo.png" alt="لوگوی لبنیات اشکذر">
-            <h1>لبنیات اشکذر</h1>
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="header">
+
+
+        <!-- Brand -->
+
+        <div class="brand">
+
+            <a href="index.html" class="brand-link">
+
+                <img src="images/Logo.png"
+                    alt="لوگوی لبنیات اشکذر">
+
+                <h1>
+                    لبنیات اشکذر
+                </h1>
+
+            </a>
+
         </div>
-        <nav>
+
+
+        <!-- Main Navigation -->
+
+        <nav class="main-nav" aria-label="منوی اصلی">
+
             <a href="index.html">
+
                 <i class="fa-solid fa-house"></i>
-                خانه
+
+                <span>
+                    خانه
+                </span>
+
             </a>
-            <a href="products.html" class="m">
+
+
+            <a href="products.html"
+                class="active">
+
                 <i class="fa-solid fa-box-open"></i>
-                محصولات
+
+                <span>
+                    محصولات
+                </span>
+
             </a>
+
+
             <a href="about.html">
+
                 <i class="fa-solid fa-circle-info"></i>
-                درباره ما
+
+                <span>
+                    درباره ما
+                </span>
+
             </a>
+
+
             <a href="contact.html">
+
                 <i class="fa-solid fa-phone"></i>
-                تماس با ما
+
+                <span>
+                    تماس با ما
+                </span>
+
             </a>
+
         </nav>
+
+
+        <!-- User Actions -->
+
         <div class="user-actions">
-            <a href="#">
+
+            <a href="#"
+                class="login-btn">
+
                 <i class="fa-solid fa-right-to-bracket"></i>
-                ورود
+
+                <span>
+                    ورود / ثبت نام
+                </span>
+
             </a>
-            <a href="#">
-                <i class="fa-solid fa-user-plus"></i>
-                ثبت نام
-            </a>
-            <a href="#">
+
+
+            <a href="#"
+                class="cart-btn"
+                aria-label="سبد خرید">
+
                 <i class="fa-solid fa-cart-shopping"></i>
-                سبد خرید
+
             </a>
+
         </div>
+
     </header>
+
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+
     <main>
-        <section>
-            <h2>محصولات لبنی اشکذر</h2>
-            <p>تمام محصولات با استفاده از شیر تازه طبیعی و بدون شیر خشک تولید می‌شوند.</p>
-            <article>
-                <img src="#" alt="ماست پرچرب بزرگ">
-                <h3>ماست پرچرب بزرگ</h3>
-                <p>تهیه شده از شیر تازه گاو، بدون مواد افزودنی و مواد نگهدارنده.</p>
-                <p>وزن:1300گرم</p>
-                <a href="product-yogurt-big.html">مشاهده محصول</a>
-            </article>
-            <article>
-                <img src="#" alt="ماست پرچرب کوچک">
-                <h3>ماست پرچرب کوچک</h3>
-                <p>تهیه شده از شیر تازه گاو، بدون مواد افزودنی و مواد نگهدارنده.</p>
-                <p>وزن:630گرم</p>
-                <a href="product-yogurt-small.html">مشاهده محصول</a>
-            </article>
-            <article>
-                <img src="#" alt="ماست موسیر">
-                <h3>ماست موسیر</h3>
-                <p>تهیه‌شده از ماست چکیده و موسیر باکیفیت.</p>
-                <p>وزن:200گرم</p>
-                <a href="product-mousir.html">مشاهده محصول</a>
-            </article>
-            <article>
-                <img src="#" alt="ماست چکیده">
-                <h3>ماست چکیده</h3>
-                <p>ماست چکیده با بافتی غلیظ، تهیه‌شده از شیر تازه و بدون استفاده از شیر خشک.</p>
-                <p>وزن:200گرم</p>
-                <a href="product-strained.html">مشاهده محصول</a>
-            </article>
-            <article>
-                <img src="#" alt="دوغ">
-                <h3>دوغ</h3>
-                <p>دوغ تهیه‌شده از ماست تازه با طعمی طبیعی و گوارا.</p>
-                <p>وزن:1500گرم</p>
-                <a href="product-doogh.html">مشاهده محصول</a>
-            </article>
-            <article>
+
+
+        <!-- =========================
+             PRODUCTS HEADER
+        ========================== -->
+
+        <section class="products-page-header">
+
+            <div class="section-heading">
+
+                <span>
+                    محصولات اشکذر
+                </span>
+
                 <h2>
-                چرا محصولات اشکذر؟
+                    محصولات لبنی اشکذر
                 </h2>
-                <ul>
-                    <li>تهیه شده از شیر تازه طبیعی</li>
-                    <li>بدون استفاده از شیر خشک</li>
-                    <li>دارای نشان سیب سلامت</li>
-                    <li>کنترل کیفیت در آزمایشگاه</li>
-                </ul>
-            </article>
+
+                <p>
+                    تمام محصولات با استفاده از شیر تازه طبیعی
+                    و بدون شیر خشک تولید می‌شوند.
+                </p>
+
+            </div>
+
         </section>
+
+
+
+        <!-- =========================
+             PRODUCTS
+        ========================== -->
+
+        <section class="products-page">
+
+
+            <div class="products-page-grid">
+
+
+                <!-- =====================
+                     BIG YOGURT
+                ====================== -->
+
+                <article class="product-page-card">
+
+                    <div class="product-page-image">
+
+                        <img src="images/yogurt-big.jpg"
+                            alt="ماست پرچرب بزرگ">
+
+                    </div>
+
+
+                    <div class="product-page-content">
+
+                        <span class="product-page-label">
+                            ماست
+                        </span>
+
+                        <h3>
+                            ماست پرچرب بزرگ
+                        </h3>
+
+                        <p>
+                            تهیه شده از شیر تازه گاو،
+                            بدون مواد افزودنی و مواد نگهدارنده.
+                        </p>
+
+                        <div class="product-page-weight">
+
+                            <i class="fa-solid fa-weight-hanging"></i>
+
+                            وزن:
+                            ۱۳۰۰ گرم
+
+                        </div>
+
+
+                        <a href="product-yogurt-big.html"
+                            class="primary-btn">
+
+                            مشاهده محصول
+
+                            <i class="fa-solid fa-arrow-left"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =====================
+                     SMALL YOGURT
+                ====================== -->
+
+                <article class="product-page-card">
+
+                    <div class="product-page-image">
+
+                        <img src="images/yogurt-small.jpg"
+                            alt="ماست پرچرب کوچک">
+
+                    </div>
+
+
+                    <div class="product-page-content">
+
+                        <span class="product-page-label">
+                            ماست
+                        </span>
+
+                        <h3>
+                            ماست پرچرب کوچک
+                        </h3>
+
+                        <p>
+                            تهیه شده از شیر تازه گاو،
+                            بدون مواد افزودنی و مواد نگهدارنده.
+                        </p>
+
+                        <div class="product-page-weight">
+
+                            <i class="fa-solid fa-weight-hanging"></i>
+
+                            وزن:
+                            ۶۳۰ گرم
+
+                        </div>
+
+
+                        <a href="product-yogurt-small.html"
+                            class="primary-btn">
+
+                            مشاهده محصول
+
+                            <i class="fa-solid fa-arrow-left"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =====================
+                     MOUSIR
+                ====================== -->
+
+                <article class="product-page-card">
+
+                    <div class="product-page-image">
+
+                        <img src="images/mousir.jpg"
+                            alt="ماست موسیر">
+
+                    </div>
+
+
+                    <div class="product-page-content">
+
+                        <span class="product-page-label">
+                            ماست
+                        </span>
+
+                        <h3>
+                            ماست موسیر
+                        </h3>
+
+                        <p>
+                            تهیه‌شده از ماست چکیده
+                            و موسیر باکیفیت.
+                        </p>
+
+                        <div class="product-page-weight">
+
+                            <i class="fa-solid fa-weight-hanging"></i>
+
+                            وزن:
+                            ۲۰۰ گرم
+
+                        </div>
+
+
+                        <a href="product-mousir.html"
+                            class="primary-btn">
+
+                            مشاهده محصول
+
+                            <i class="fa-solid fa-arrow-left"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =====================
+                     STRAINED
+                ====================== -->
+
+                <article class="product-page-card">
+
+                    <div class="product-page-image">
+
+                        <img src="images/strained.jpg"
+                            alt="ماست چکیده">
+
+                    </div>
+
+
+                    <div class="product-page-content">
+
+                        <span class="product-page-label">
+                            ماست
+                        </span>
+
+                        <h3>
+                            ماست چکیده
+                        </h3>
+
+                        <p>
+                            ماست چکیده با بافتی غلیظ،
+                            تهیه‌شده از شیر تازه و بدون
+                            استفاده از شیر خشک.
+                        </p>
+
+                        <div class="product-page-weight">
+
+                            <i class="fa-solid fa-weight-hanging"></i>
+
+                            وزن:
+                            ۲۰۰ گرم
+
+                        </div>
+
+
+                        <a href="product-strained.html"
+                            class="primary-btn">
+
+                            مشاهده محصول
+
+                            <i class="fa-solid fa-arrow-left"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =====================
+                     DOOGH
+                ====================== -->
+
+                <article class="product-page-card">
+
+                    <div class="product-page-image">
+
+                        <img src="images/doogh.jpg"
+                            alt="دوغ">
+
+                    </div>
+
+
+                    <div class="product-page-content">
+
+                        <span class="product-page-label">
+                            نوشیدنی
+                        </span>
+
+                        <h3>
+                            دوغ
+                        </h3>
+
+                        <p>
+                            دوغ تهیه‌شده از ماست تازه
+                            با طعمی طبیعی و گوارا.
+                        </p>
+
+                        <div class="product-page-weight">
+
+                            <i class="fa-solid fa-weight-hanging"></i>
+
+                            وزن:
+                            ۱۵۰۰ گرم
+
+                        </div>
+
+
+                        <a href="product-doogh.html"
+                            class="primary-btn">
+
+                            مشاهده محصول
+
+                            <i class="fa-solid fa-arrow-left"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             WHY PRODUCTS
+        ========================== -->
+
+        <section class="products-why-us">
+
+            <div class="section-heading">
+
+                <span>
+                    ویژگی محصولات
+                </span>
+
+                <h2>
+                    چرا محصولات اشکذر؟
+                </h2>
+
+                <p>
+                    کیفیت و سلامت محصولات، اولویت ماست.
+                </p>
+
+            </div>
+
+
+            <div class="features">
+
+
+                <!-- Feature 1 -->
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+
+                        <i class="fa-solid fa-droplet"></i>
+
+                    </div>
+
+                    <h3>
+                        شیر تازه طبیعی
+                    </h3>
+
+                    <p>
+                        محصولات با استفاده از شیر تازه
+                        و طبیعی تولید می‌شوند.
+                    </p>
+
+                </article>
+
+
+
+                <!-- Feature 2 -->
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+
+                        <i class="fa-solid fa-ban"></i>
+
+                    </div>
+
+                    <h3>
+                        بدون شیر خشک
+                    </h3>
+
+                    <p>
+                        در تولید محصولات از شیر خشک
+                        استفاده نمی‌شود.
+                    </p>
+
+                </article>
+
+
+
+                <!-- Feature 3 -->
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+
+                        <i class="fa-solid fa-shield-heart"></i>
+
+                    </div>
+
+                    <h3>
+                        نشان سیب سلامت
+                    </h3>
+
+                    <p>
+                        سلامت و کیفیت محصولات با رعایت
+                        اصول بهداشتی مورد توجه قرار می‌گیرد.
+                    </p>
+
+                </article>
+
+
+
+                <!-- Feature 4 -->
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+
+                        <i class="fa-solid fa-flask"></i>
+
+                    </div>
+
+                    <h3>
+                        کنترل کیفیت
+                    </h3>
+
+                    <p>
+                        محصولات و شیر ورودی در آزمایشگاه
+                        کنترل کیفیت بررسی می‌شوند.
+                    </p>
+
+                </article>
+
+
+
+                <!-- Feature 5 -->
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+
+                        <i class="fa-solid fa-gears"></i>
+
+                    </div>
+
+                    <h3>
+                        تجهیزات مدرن
+                    </h3>
+
+                    <p>
+                        تولید محصولات با استفاده از
+                        تجهیزات صنعتی مدرن انجام می‌شود.
+                    </p>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PRODUCTS CTA
+        ========================== -->
+
+        <section class="products-cta">
+
+            <div class="products-cta-content">
+
+                <span>
+                    لبنیات اشکذر
+                </span>
+
+                <h2>
+                    طعم طبیعی شیر را انتخاب کنید
+                </h2>
+
+                <p>
+                    محصولات لبنی اشکذر با استفاده از
+                    شیر تازه و طبیعی تولید می‌شوند.
+                </p>
+
+            </div>
+
+        </section>
+
+
     </main>
-    <footer>
-            <h3>کانال ایتا</h3>
-            <a href="#">
-            کانال ایتا
-            </a>
-            <h3>کانال تلگرام</h3>
-            <a href="#">
-            کانال تلگرام
-            </a>
-            <h3>اینستاگرام</h3>
-            <a href="#">
-            اینستاگرام
-            </a>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+
+        <div class="footer-container">
+
+
+            <!-- Brand -->
+
+            <div class="footer-brand">
+
+                <a href="index.html"
+                    class="footer-logo">
+
+                    <img src="images/Logo.png"
+                        alt="لوگوی لبنیات اشکذر">
+
+                    <span>
+                        لبنیات اشکذر
+                    </span>
+
+                </a>
+
+
+                <p>
+                    تولید محصولات لبنی تازه و باکیفیت
+                    با استفاده از شیر طبیعی و تازه.
+                </p>
+
+            </div>
+
+
+
+            <!-- Quick Links -->
+
+            <div class="footer-links">
+
+                <h3>
+                    دسترسی سریع
+                </h3>
+
+
+                <a href="index.html">
+                    خانه
+                </a>
+
+
+                <a href="products.html">
+                    محصولات
+                </a>
+
+
+                <a href="about.html">
+                    درباره ما
+                </a>
+
+
+                <a href="contact.html">
+                    تماس با ما
+                </a>
+
+            </div>
+
+
+
+            <!-- Contact -->
+
+            <div class="footer-contact">
+
+                <h3>
+                    ارتباط با ما
+                </h3>
+
+
+                <a href="tel:09133590536">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    09133590536
+
+                </a>
+
+
+                <p>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    یزد، شهرک صنعتی یزد،
+                    فاز ۳، بلوار لادن، لادن ۹
+
+                </p>
+
+            </div>
+
+
+
+            <!-- Social -->
+
+            <div class="footer-social">
+
+                <h3>
+                    ما را دنبال کنید
+                </h3>
+
+
+                <div>
+
+
+                    <a href="#"
+                        aria-label="ایتا">
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                    </a>
+
+
+                    <a href="#"
+                        aria-label="تلگرام">
+
+                        <i class="fa-brands fa-telegram"></i>
+
+                    </a>
+
+
+                    <a href="#"
+                        aria-label="اینستاگرام">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- Copyright -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © تمامی حقوق این وب‌سایت متعلق به لبنیات اشکذر است.
+            </p>
+
+        </div>
+
+
     </footer>
+
+
 </body>
 </html>
